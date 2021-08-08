@@ -1,0 +1,5 @@
+let fibbo= [6, 8];
+for (i=2; i<=10; i++){
+     fibbo[i] =fibbo[i-1]+fibbo[i-2];
+}
+console.log(fibbo);
